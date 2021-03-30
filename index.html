@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Exercises</title>
+    <link rel="stylesheet" href="css/css.css" />
+  </head>
+  <body onload="startTime()">
+    <script src="js/js.js"></script>
+    <h1>Greetings dear visitor!!</h1>
+    <h4>Javascript clock:</h4>
+    <div id="clock"></div>
+
+    <br />
+    <hr />
+
+    <h4>Leap year evaluator:</h4>
+    Enter year: <input type="number" id="isLeapYear" value="1984" />
+    <button onclick="leapYear()">Is leap year?</button>
+    <p id="leapYearResult"></p>
+
+    <br />
+    <hr />
+
+    <h4>1st of January = Sunday?</h4>
+    Enter year: <input type="number" id="isWeekDay" value="1984" />
+    <button onclick="firstDayOfTheYear()">
+      What day it the 1st of January?
+    </button>
+    <p id="firstDayOfTheYearResult"></p>
+
+    <br />
+    <hr />
+
+    <h4>Guessing game</h4>
+    Enter a number 1-3:
+    <input type="number" id="rndNbr" value="1" min="1" max="3" />
+    <button onclick="guessingGame()">
+      Test if it's same as a random number
+    </button>
+    <p id="guessingResult"></p>
+
+    <br />
+    <hr />
+
+    <h4>Days until Christmas</h4>
+    <button onclick="daysToChristmas()">
+        Get the answer!
+      </button>
+      <p id="daysToChristmasResult"></p>
+
+    <br />
+    <hr />
+
+    <h4>Reverse input</h4>
+    <input type="text" id=textToReverse value="hello">
+    <button onclick="reverseInput()">
+      Reverse the input!
+    </button>
+    <p id="reverseInputResult"></p>
+
+    <br />
+    <hr />
+
+
+    <h4>Text manipulation</h4>
+    <input type="text" id=textToManipulate value="hello">
+    <button onclick="manipulationInput()">
+      Get all combinations!
+    </button>
+    <p id="textToManipulateResult"></p>
+
+    <br />
+    <hr />
+
+  </body>
+</html>
